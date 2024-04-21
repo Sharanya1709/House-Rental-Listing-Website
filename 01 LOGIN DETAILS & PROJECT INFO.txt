@@ -1,0 +1,21 @@
+**Database Name: house_rental**
+
+**Developed by Sharanya shree S B**
+
+**Recommended PHP Version 5.6.3**
+
+
+**Owner's Login** 
+
+Email: sharanyashree@gmail.com
+ Password: sharanya123
+
+
+
+**Tenant Login**
+
+Email:	  ryaandi@gmail.com
+Password: password
+
+
+Agreement file is provided in this file while uploading file you should choose from this file only.

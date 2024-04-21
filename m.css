@@ -1,0 +1,211 @@
+.section-meals {
+    padding: 0;
+
+}
+
+.meals-showcase {
+    width:100%;
+    list-style:none;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width:25%;
+}
+
+.meal-photo {
+    width:100%;
+    margin:0;
+    overflow:hidden;
+    background-color:#000;
+    position: relative;
+
+}
+
+.img {
+    width:400px;
+    height:300px;
+    transform: scale(1.15);
+    transition:0.5s;
+    opacity:0.7;
+}
+
+.low-opacity {
+    opacity:0.5;
+}
+
+.img_hover:hover {
+    transform: scale(1.05);
+    opacity:1;
+}
+
+.slide-uploader {
+    display:none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    z-index:1;
+}
+
+.slide-uploader i {
+    font-size: 40px;
+    z-index: 1;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.slide-uploader a {
+    margin-top:62px;
+}
+.home{
+    margin-top: 5rem;
+    background: url(https://th.bing.com/th/id/R.3f1811ccf9e4c07bf1af5b33e62e7cc4?rik=R47t7k116FqlUg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fBuilding-HD-Images-Free.jpg&ehk=9K2qLSJ3W8hkp2nmBOcdc61nEFQ0vBY2sXZFAd3DdTU%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.home-text{
+    padding-left: 35px;
+    color:#333
+}
+.home-text h1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,auto));
+    gap: 2rem;
+
+}
+.about-img img{
+    border-radius: 2rem 0 2rem 2rem;
+}
+.about-text span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--main-color);
+}
+.about-text h2{
+    font-size: 3rem;
+}
+.about-text p{
+    font-size: 2rem;
+    margin: 2rem 0 2rem;
+}
+.sales {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    gap: 4rem;
+}
+.sales .box{
+    padding: 40px;
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    border-radius: 2rem;
+}
+.slaes .box:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    transition: 0.4s all linear;
+}
+.sales .box .bx{
+    padding: 20px;
+    border-radius: 70%;
+    background: #f6f6fe;
+    color: var(--main-color);
+    font-size: 50px;
+}
+.sales .box h3{
+    font-size: 3rem;
+    margin: 2rem 0 0.8rem;
+}
+.sales .box p{
+    font-size: 1rem;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.newsletter h2 {
+ font-size: 30px;
+}
+.newsletter form{
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 6px 10px;
+    border-radius: 5rem;
+}
+.newsletter form input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+
+}
+.newsletter #email-box{
+    width: 280px;
+}
+.footer{
+    background: blue;
+    color: var(--bg-color);
+    border-radius: 5rem 0 0 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    gap: 2rem;
+}
+.footer-container h2{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.footer-box a{
+    font-size: 15px;
+    color: var(--bg-color);
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.footer-box a.box:hover {
+    color: var(--text-color);
+
+}
+.social a{
+    font-size: 20px;
+    margin-right: 1rem;
+
+}
+.social a:hover {
+    color: var(--second-color);
+}
+.copyright{
+    padding: 20px;
+    text-align: center;
+    color: var(--bg-color);
+    background-color: blue;
+}

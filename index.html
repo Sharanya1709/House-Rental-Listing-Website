@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>R.State</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="m.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">R.State</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li> 
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">View Houses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="viewhouse.php">Houses</a></li>
+            <li><a href="viewrating.php">Rating</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <section class="section-meals" id="grid-photos">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo" id="meals-1">
+                            <div class="slide-uploader" id="uploader-1">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-1" hidden="hidden" onchange="open_File(this)"/>
+                                    </div>
+                        <img src="img/h10.jpg" class="img img_hover" id="img-1">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-2">
+                            <div class="slide-uploader" id="uploader-2">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-2" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h5.jpg" class="img img_hover" id="img-2">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-3">
+                            <div class="slide-uploader" id="uploader-3">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-3" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h7.jpg" class="img img_hover" id="img-3">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-4">
+                            <div class="slide-uploader" id="uploader-4">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-4" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h8.jpg" class="img img_hover" id="img-4">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-5">
+                            <div class="slide-uploader" id="uploader-5">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-5" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h6.jpg" class="img img_hover" id="img-5">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-6">
+                            <div class="slide-uploader" id="uploader-6">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-6" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h8.jpg" class="img img_hover" id="img-6">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-7">
+                            <div class="slide-uploader" id="uploader-7">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-7" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h10.jpg" class="img img_hover" id="img-7">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo" id="meals-8">
+                            <div class="slide-uploader" id="uploader-8">
+                                    <i class="fas fa-upload center"></i><br>
+                                    <input type="file" id="real-file-slide-8" hidden="hidden" onchange="open_File(this)"/>
+                                    
+                            </div>
+                        <img src="img/h9.jpg" class="img img_hover" id="img-8">
+                    </figure>
+                </li>
+            </ul>
+            
+  <div style="margin-top: 5rem;
+  background: url(https://th.bing.com/th/id/R.3f1811ccf9e4c07bf1af5b33e62e7cc4?rik=R47t7k116FqlUg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f10%2fBuilding-HD-Images-Free.jpg&ehk=9K2qLSJ3W8hkp2nmBOcdc61nEFQ0vBY2sXZFAd3DdTU%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 440px;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+    color:#333;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;">
+    <h1>Find Your Next <br> Perfect Place To <br> Live.</h1>
+  </div>
+  <section class="about container" id="about">
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1612637968894-660373e23b03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50JTIwYnVpbGRpbmd8ZW58MHx8MHx8&w=1000&q=80" alt="" width="100%" height="100%">
+    </div>
+    <div class="about-text">
+      <span>About us</span>
+      <h2>We Provide The Best <br> Property For You !</h2>
+      <p>R.State is a marketplace where tenants can buy or cater to those wish to rent a flat in appartments.</p>
+      <p>we know that buying and selling property is not easy.So this platform is made to ensure that verified listings attract genuine buyers and customers.</p>
+    <p>Partner with R.State can rent property with ad free and enjoy the benefits of partnering with us.We help you find enjoy and more.</p>
+    <p>R.State is the most preferred property website among other website .when you join us,you get connected with only genuine landlords.So Start today to rent flats.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+  <section class="sales container" id="sales">
+    <div class="box">
+      <i class='bx bx-user'></i>
+      <h3>Make Your Dream True</h3>
+      <p>Dream is the only wish where everyone urge to fulfill it so join with R State and fulfill all your dreams as soon as possible.we will help you to get the right home for you.Reasonably priced rents,quality properties . </p>
+    </div>
+    <div class="box">
+      <i class='bx bx-desktop'></i>
+      <h3>Start Your Membership</h3>
+      <p> Join with us , enjoy all the facilities by starting your membership with us.We provide you best property.Work in hand with our landlords , you will never have to wait long to get your property rented.</p>
+    </div>
+    <div class="box">
+      <i class='bx bx-home-alt'></i>
+      <h3>Enjoy Your New Home</h3>
+      <p>Home is the place where we find peace within itself! So our website provides best Housing Facilities with genius landlords.Stay tuned and join with us and rent your dream flats for reasonable price.</p>
+    </div>
+  </section>
+  
+  <section class="footer">
+    <div class="footer-container container">
+      <h2>R.State</h2>
+      <div class="footer-box">
+        <h3>Help Links</h3>
+        <a href="#">Agency</a>
+        <a href="#">Building</a>
+        <a href="#">Rates</a>
+        <a href="#">FAQ's</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-box a">
+        <h3>Quick Links</h3>
+      <h3>Sales Location</h3>
+        <a href="#">pondicherry</a>
+        <a href="#">Mysore</a>
+        <a href="#">Banglore</a>
+        <a href="#">Hyderabad</a>
+        <a href="#">Chennai</a>
+      </div>
+      <div class="social">
+        <h3>Contact Us</h3>
+        <a href="#">+44 (0)800 123 4567</a><br>
+        <a href="#">rstate@gmail.com</a><br>
+       <a href=""><i class='bx bxl-facebook' ></i></a>
+       <a href=""><i class='bx bxl-twitter' ></i></a>
+       <a href=""><i class='bx bxl-instagram' ></i></a>
+       <div>
+        <a href="#" class="social-link">terms & services</a><br>
+<a href="#" class="social-link">privacy page</a>
+
+       </div>
+
+      </div>
+    </div>
+  </section>
+  <div class="copyright">
+    <p>&#169; R.State All Right Reserved</p>
+  </div>
+</section>
+</div>
+ </body>
+ </html>

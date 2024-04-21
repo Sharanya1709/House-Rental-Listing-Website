@@ -1,0 +1,36 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="signin.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<br>
+<br>
+
+<div class="container" align="left">
+	<div class="card" style="width: 23rem;border-radius: 25px;background-color:#f0f5f5">
+<br>
+
+ <div class="card-body"><h1 class="card-title"><B>Sign In Here</B></h1><br>
+<form name="Form1" action="signin.php" method="post" enctype="multipart/form-data">
+<span><b>email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
+<input type="email" class="login-input" name="uname" placeholder="enter your email">
+<span><b>password:</b></span>
+<input type="password" class="login-input" name="password" placeholder="enter your password">
+<b>Sign In as: </b>
+		 <select name="s" size="1">
+<option value="owner">Owner</option>
+<option value="tenant">Tenant</option>
+</select>
+<br><br><center>
+	
+<input type=submit value="Sign In" class="btn btn-success" name="save"></center>
+</form><center>
+<a href="signup.html" class="btn btn-success"><b>New User Sign up here</b></a></center><br><br><br>
+</div>
+</body>
+</html>
